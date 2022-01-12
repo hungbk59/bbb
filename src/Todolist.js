@@ -39,7 +39,7 @@ class Todolist extends React.Component {
             style={{cursor: "pointer"}} 
             title="add"
             src={
-                prosess.env.PUBLIC_URL +
+                process.env.PUBLIC_URL +
                 "./assets/plus.png"} 
             width="20px" 
             alt="Add Task"

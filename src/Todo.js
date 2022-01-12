@@ -15,7 +15,7 @@ class Todo extends React.Component {
       checkDone=(
         <img 
             src={
-              prosess.env.PUBLIC_URL +
+              process.env.PUBLIC_URL +
               "./assets/clipboard.png"} 
             width="20px"
             style={{cursor: "pointer"}} 
@@ -29,7 +29,7 @@ class Todo extends React.Component {
         {checkDone}
         <img className={this.state.done ? 'noCheckDone':''}
             src={
-              prosess.env.PUBLIC_URL +
+              process.env.PUBLIC_URL +
               "./assets/bin.png"}
             width="20px"
             style={{cursor: "pointer"}}
